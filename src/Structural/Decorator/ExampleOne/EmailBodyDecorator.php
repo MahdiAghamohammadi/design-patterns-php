@@ -1,8 +1,6 @@
 <?php
 
-namespace Src\Structural\Decurator\ExampleOne;
-
-require_once "EmailBody.php";
+namespace Src\Structural\Decorator\ExampleOne;
 
 abstract class EmailBodyDecorator implements EmailBody
 {

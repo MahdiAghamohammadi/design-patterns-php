@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Structural\Decurator\ExampleTwo;
+namespace Src\Structural\Decorator\ExampleTwo;
 
 require_once "RoomInterface.php";
 

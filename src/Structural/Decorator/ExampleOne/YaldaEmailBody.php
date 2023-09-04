@@ -1,8 +1,6 @@
 <?php
 
-namespace Src\Structural\Decurator\ExampleOne;
-
-require_once "EmailBodyDecorator.php";
+namespace Src\Structural\Decorator\ExampleOne;
 
 
 class YaldaEmailBody extends EmailBodyDecorator

@@ -1,6 +1,7 @@
 <?php
 
-namespace Src\Structural\Decurator\ExampleTwo;
+namespace Src\Structural\Decorator\ExampleTwo;
+
 interface RoomInterface
 {
     public function getDescription(): string;

@@ -1,8 +1,10 @@
 <?php
+
 namespace Src\Behavioral\Observer;
 
 use Src\Behavioral\Observer\Interfaces\SplObserver;
 use Src\Behavioral\Observer\Interfaces\SplSubject;
+
 class AddedComment implements SplSubject
 {
     protected array $observers = [];
@@ -10,8 +12,7 @@ class AddedComment implements SplSubject
     public function __construct(
         public $comment_text,
         public $post_id
-    )
-    {
+    ) {
     }
 
     public function attach(SplObserver $observer): static
