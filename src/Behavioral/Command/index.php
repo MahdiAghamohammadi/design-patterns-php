@@ -17,7 +17,7 @@ $carWash->newCustomer(
 $carWash->newCustomer(
     [new CarSimpleWashCommand($car2),
     new CarDryCommand($car2),
-    new CarWaxCommand($car)]
+    new CarWaxCommand($car2)]
 );
 
 $carWash->wash();
